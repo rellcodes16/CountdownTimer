@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+}
+
+body{
+    background-color: #63615a;
+    color: black;
+}
+
+/* .timer-container{
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+} 
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    align-items: center;
+}
+
+.timer-section{
+    display: flex;
+    gap: 0.1em;
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.flip-card{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.1em;
+}
+
+.top, 
+.bottom,
+.flip-card .top-flip,
+.flip-card .bottom-flip{
+    height: .75em;
+    line-height: 1;
+    padding: .25em;
+    overflow: hidden;
+}
+
+.top,
+.flip-card .top-flip{
+    background-color: #f7f7f7;
+    border-top-right-radius: 0.1em;
+    border-top-left-radius: 0.1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bottom,
+.flip-card .bottom-flip{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: flex-end;
+    border-bottom-left-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+}
+
+.flip-card .top-flip{
+    content: ''; 
+    width: 100%;
+    background-color: red; 
+    position: absolute;
+    animation: flip-top 1000ms ease-in;
+    transform-origin: bottom;
+}
+
+@keyframes flip-top {
+    100%{
+        transform: rotateX(90deg);
+    }
+}
+
+.flip-card .bottom-flip{
+    content: ''; 
+    bottom: 0;
+    width: 100%;
+    background-color: red; 
+    position: absolute;
+    animation: flip-bottom 1000ms ease-out 500ms;
+    transform-origin: top;
+    transform: rotateX(90deg);
+}
+
+@keyframes flip-bottom {
+    100%{
+        transform: rotateX(0deg);
+    }
+}*/
+
+/* .countdown-timer{
+    display: grid;
+} */
+
+.countdown-timer button{
+    font-size: 20%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: grey;
+    /* justify-self: center; */
+    color: black;
+    padding: 10px;
+}
+
+.countdown-timer button:hover{
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+.select{
+    font-size: 20%;
+    background-color: grey;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 7px;
+}
+
+.select option{
+    font-size: 80%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.select option:hover{
+    cursor: pointer;
+}
+
+input{
+    font-size: 15%;
+}
+
